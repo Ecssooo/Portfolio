@@ -54,6 +54,19 @@ nav a:hover {
     color: #a78bfa;
 }
 
+nav a.cv {
+    background: #7c3aed;
+    color: #ffffff;
+    padding: 3px 13px;
+    border-radius: 25px;
+    transition: 0.3s ease;
+}
+
+nav a.cv:hover {
+    background: #a78bfa;
+    color: #09090c;
+}
+
 /* ===== SECTIONS ===== */
 
 section {
