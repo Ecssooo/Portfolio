@@ -11,3 +11,15 @@
     flex-direction: column;
     align-items: center;
 }
+
+@media screen and (max-width: 500px) {
+
+    .project-header{
+        background-image: url();
+    }
+    
+    .gallery-grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+    
+}
