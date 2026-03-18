@@ -206,3 +206,28 @@ footer {
     font-size: 0.9rem;
     color: #777792;
 }
+
+/* ===== Responsive ===== */
+
+@media (max-width: 500px) {
+    .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    justify-items: center;
+    }
+
+
+
+    .project-card img {
+        height: 100px;
+    }
+
+    .project-card h3{
+        font-size: 1.3rem;
+    }
+
+    .project-card h4{
+        font-size: 0.85rem;
+    }
+}

@@ -1,0 +1,9 @@
+.project-header {
+    background-image: url("../../src/img/OnLifesPath/banner.png");
+}
+
+.project-header img.project-banner {
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
