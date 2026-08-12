@@ -1,0 +1,68 @@
+.project-header {
+    position: relative;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid #222;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(9, 9, 12, 0.75);
+}
+
+.header-content {
+    position: relative;
+    z-index: 2;
+}
+
+.project-header h1 {
+    font-size: 3rem;
+    color: #a78bfa;
+    letter-spacing: 1px;
+}
+
+.project-header p {
+    margin: 15px 0;
+    font-size: 1.1rem;
+    color: #b5b5c3;
+}
+
+.project-header img.project-banner {
+    width: 150px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+
+.home-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #ffffff;
+    padding: 10px 12px 6px 12px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.home-btn:hover {
+    background: #7c3aed;
+}
+
+.home-btn img {
+    width: 30px;
+    height: 30px;
+}
+
+.project-card {
+    min-width: 500px;
+}
+
+.disabled {
+    pointer-events: none;
+    background-color: #ed3a3a;
+
+}
